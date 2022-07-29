@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.head{
+    text-align: center;
+    color: rgb(21, 21, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    font-weight: bold;
+}
+.head::before{
+    content: '';
+    background:url("b1.jpg") center center/cover;
+    opacity: 0.5;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 70vh;
+}
+.title{
+    text-align: center;
+    margin: 10px;
+    
+}
+.text{
+    text-align: center;
+    padding: 0 220px;
+    font-size: 17px;
+}
+.button{
+    text-align: center;
+    padding: 8px 10px;
+    margin: 20px 0 20px 0;
+    background-color: rgb(35, 32, 32);
+    color: #ffffff;
+    border:2px solid gray;
+    outline: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+/*section 1*/
+.s1{
+    background-color: #e7dfdf;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.s-1{
+    color: black;
+    align-items: center;
+    font-weight: bold;
+    
+
+}
+.s-2{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 200px;
+    align-items: center;
+    gap: 5px;
+}
+.s-2>*{
+    text-align: center;
+
+}
+/*section2*/
+.s2{
+    background: rgb(150, 143, 143);
+    height: 55vh;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    
+}
+.field-text{
+    text-align: center;
+    margin: 15px;
+    padding: 1px;
+    
+}
+.field-text>p{
+    margin-top: 6px;
+}
+
+.s2-1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+    border-color: #ffffff;
+    height: 50vh;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.s2-1>.p1{
+    height: 25vh;
+}
+
+.s2-2{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+    border-color: #ffffff;
+    height: 50vh;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.s2-2>.p2{
+    height: 25vh;
+}
+.s2-3{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+    border-color: #ffffff;
+    height: 50vh;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.s2-3>.p3{
+    height: 25vh;
+}
+/*section 3*/
+.s3{
+    height: 30vh;
+    padding: 3rem;
+}
+.s3>h3{
+    text-align: center;
+    font-size: 25px;
+}
+.s3>.s3-text{
+    text-align: center;
+    padding: 1.5rem 6rem 1rem 6rem;
+}
+
+/*section 4*/
+.s4{
+    height: 30vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.s4-1{
+    background: rgb(84, 84, 211);
+    text-align: center;
+    height: 30vh;
+    width: 50%;
+    padding-top: 3rem;
+    padding: 2rem;
+    color: #ffffff;
+}
+.s4-1>h3{
+    padding-bottom: 9px;
+    font-size: 35px;
+}
+.s4-1>:nth-child(3){
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.s4-2{
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    height:30vh;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 3rem;
+}
+.s4-2>h3{
+    padding-bottom: 4px;
+    font-size: 30px;
+}
+/*footer*/
+.footer{
+    height: 8vh;
+    background: black;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: row;
+    justify-items: center;
+    
+}
+.text1{
+    width: 50%;
+    text-align: center;
+}
+.text2{
+    width: 50%;
+    text-align: center;
+}
+.text2>span{
+    color: rgb(73, 73, 233);
+}
+
